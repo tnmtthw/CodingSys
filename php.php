@@ -128,9 +128,11 @@ if (isset($_POST['submit'])) {
                 6 => 'Wednesday',
                 7 => 'Thursday',
                 8 => 'Thursday'
+                9 => 'Friday', // Friday coding for plates ending with 9
+                0 => 'Friday' // Friday coding for plates ending with 0
             ];
 
-            if ($day == 'Saturday' || $day == 'Sunday') {
+             if ($day == 'Saturday' || $day == 'Sunday') {
                 echo "Motor Vehicle " . $vehicleType . " with Plate No. " . $plateNumber . " is NOT CODING on " . $day . " at " . $selectedTime . ".";
             } else {
                 if (array_key_exists($lastDigit, $codingDays) && $codingDays[$lastDigit] == $day) {
