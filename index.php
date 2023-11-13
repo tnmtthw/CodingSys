@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Plate Number Coding System</title>
+    <link rel="icon" type="image/x-icon" href="1.jpg">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('bg.jpg');
+            background-image: url('2.jpg');
             background-size: cover;
             display: flex;
             justify-content: center;
